@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SpacewarsActivity!</string>
+   
+    <string name="yesno"> Yes or No Dialog box </string>
+
+     <string name="app_name">Space Wars</string>
+     
+</resources>

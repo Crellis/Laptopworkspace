@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/mainMenuImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/spacewars" >
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+
+      <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnScores"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:clickable="true"
+        android:src="@drawable/startselector" />
+    
+    <ImageButton
+        android:id="@+id/btnScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnExit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:clickable="true"
+        android:src="@drawable/scoresselector" />
+
+    
+    <ImageButton
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:clickable="true"
+        android:src="@drawable/exitselector" />
+
+</RelativeLayout>

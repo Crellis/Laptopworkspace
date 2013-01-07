@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Click Button Below to Run a Query" />
+	
+	<Button android:text="Click to Query Contacts Database"
+		android:id="@+id/queryButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+	
+	<Button android:text="Click to add a Contact to the Database"
+		android:id="@+id/addContactButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center" />
+
+</LinearLayout>
